@@ -13,6 +13,7 @@
 		02137E2C19CFC3AF00B22916 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02137E2B19CFC3AF00B22916 /* Images.xcassets */; };
 		02137E2F19CFC3AF00B22916 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02137E2D19CFC3AF00B22916 /* LaunchScreen.xib */; };
 		02137E3B19CFC3AF00B22916 /* HackerTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02137E3A19CFC3AF00B22916 /* HackerTypeTests.swift */; };
+		02137E7B19CFEC8000B22916 /* kernel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 02137E7A19CFEC8000B22916 /* kernel.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		02137E3419CFC3AF00B22916 /* HackerTypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackerTypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02137E3919CFC3AF00B22916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02137E3A19CFC3AF00B22916 /* HackerTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerTypeTests.swift; sourceTree = "<group>"; };
+		02137E7A19CFEC8000B22916 /* kernel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kernel.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		02137E1619CFC3AF00B22916 = {
 			isa = PBXGroup;
 			children = (
+				02137E8019CFF13B00B22916 /* Data */,
 				02137E2119CFC3AF00B22916 /* HackerType */,
 				02137E3719CFC3AF00B22916 /* HackerTypeTests */,
 				02137E2019CFC3AF00B22916 /* Products */,
@@ -110,6 +113,14 @@
 				02137E3919CFC3AF00B22916 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02137E8019CFF13B00B22916 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				02137E7A19CFEC8000B22916 /* kernel.txt */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02137E2A19CFC3AF00B22916 /* Main.storyboard in Resources */,
+				02137E7B19CFEC8000B22916 /* kernel.txt in Resources */,
 				02137E2F19CFC3AF00B22916 /* LaunchScreen.xib in Resources */,
 				02137E2C19CFC3AF00B22916 /* Images.xcassets in Resources */,
 			);
@@ -337,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HackerType/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HackerType/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
